@@ -1,9 +1,9 @@
-const App = () => {
+const NotFoundPage = () => {
     return (
         <div>
-            App
+
         </div>
     );
 };
 
-export {App};
+export {NotFoundPage};
