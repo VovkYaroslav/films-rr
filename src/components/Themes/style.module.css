@@ -1,0 +1,28 @@
+.theme-switcher {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-switcher.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.theme-switcher.dark span {
+    filter: invert(1);
+}
+
+.theme-switcher:hover {
+    background-color: #f5f5f5;
+}
+
+.theme-switcher:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #6b9dfa;
+}
